@@ -1,0 +1,10 @@
+.switch {
+    @apply cursor-pointer;
+}
+
+.switch > input[type=checkbox] ~ div {
+    @apply !mr-0;
+}
+.switch > input[type=checkbox]:checked ~ div {
+    @apply !bg-cyan-soft;
+}
